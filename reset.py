@@ -1,5 +1,4 @@
 import numpy as np
-import matplotlib.pyplot as plt
 
 x_0 = 0.5
 dt = 1/10000
@@ -27,6 +26,7 @@ for r in r_vals:
         mfpt = mfpt + T/count
     mfpt_vals.append(mfpt)
 
+print(r_vals)
 print(mfpt_vals)
 
 

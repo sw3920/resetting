@@ -5,4 +5,8 @@
 module load tools/prod
 module load SciPy-bundle/2022.05-foss-2022a
 
-python3 </rds/general/user/sw3920/home/resetting reset.py>
+cp $HOME/resetting/reset.py $TMPDIR
+
+python3 reset.py > output.txt
+
+cp $TMPDIR/output.txt $HOME/resetting/

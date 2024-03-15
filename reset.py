@@ -1,7 +1,7 @@
 import numpy as np
 
 x_0 = 0.5
-dt = 1/10000
+dt = 1/100
 w=0
 D = 0.5
 K = 0.7393

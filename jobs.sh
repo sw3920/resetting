@@ -2,6 +2,7 @@
 #PBS -l walltime=00:10:00
 #PBS -l select=1:ncpus=1:mem=2gb
 
+cd $PBS_O_WORKDIR
 module load tools/prod
 module load SciPy-bundle/2023.02-gfbf-2022b
 

@@ -10,7 +10,7 @@ epsilon = 0
 count = 10000
 r_vals = np.arange(0,10,0.1)
 mfpt_vals = []
-for r in r_vals:
+def mfpt(r):
     mfpt = 0
     for i in range(count):
         T = 0
@@ -23,9 +23,9 @@ for r in r_vals:
                 x = x + dx
             T=T+dt
         mfpt = mfpt + T/count
-    mfpt_vals.append(mfpt)
+    return mfpt
 
-print(r_vals)
+mfpt_vals=[mfpt(r) for r in r_vals]
 print(mfpt_vals)
 
 

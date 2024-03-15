@@ -4,7 +4,7 @@
 
 cd $PBS_O_WORKDIR
 module load tools/prod
-module load SciPy-bundle/2023.02-gfbf-2022b
+module load SciPy-bundle/2022.05-foss-2022a
 
 cp $HOME/resetting/reset.py $TMPDIR
 

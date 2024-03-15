@@ -2,11 +2,11 @@ import numpy as np
 
 x_0 = 0.5
 dt = 1/100
-w=0
+w=0.25
 D = 0.5
 K = 0.7393
 k = ((((K)/x_0)**2)*D)
-epsilon = 0
+epsilon = 0.1
 count = 10000
 r_vals = np.arange(0,10,1)
 mfpt_vals = []

@@ -7,8 +7,8 @@ D = 0.5
 K = 0.7393
 k = ((((K)/x_0)**2)*D)
 epsilon = 0
-count = 10000
-r_vals = np.arange(0,10,0.1)
+count = 1000
+r_vals = np.arange(0,10,1)
 mfpt_vals = []
 def mfpt(r):
     mfpt = 0

@@ -8,6 +8,6 @@ module load SciPy-bundle/2022.05-foss-2022a
 
 cp $HOME/resetting/reset.py $TMPDIR
 
-python reset.py > output.txt
+python reset.py > output2.txt
 
 cp $TMPDIR/output.txt $HOME/resetting/

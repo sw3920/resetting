@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-dw_values=(0)
+dw_values=(0,1,100)
 
 for dw in "${dw_values[@]}"
 do

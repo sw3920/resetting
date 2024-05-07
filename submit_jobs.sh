@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-dw_values=(1.1 2.2)
+dw_values=(0)
 
 for dw in "${dw_values[@]}"
 do
